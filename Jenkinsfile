@@ -11,6 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the project...'  // Replace with actual build commands
+                sh 'chmod +x Anuja.sh && ./Anuja.sh'
             }
         }
 
